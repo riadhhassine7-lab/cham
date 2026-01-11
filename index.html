@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivez la Tunisie Authentique | Vacances Dunes & Mer</title>
+    <meta name="description" content="Circuits sur mesure en Tunisie : des dunes du Sahara aux rivages de la Méditerranée. Voyages en petits groupes pour voyageurs du Québec et du Canada.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="badge">
+                        <svg class="badge-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        Voyages en Tunisie pour voyageurs du Québec et du Canada
+                    </span>
+                    
+                    <h1 class="hero-title">Vivez la Tunisie authentique, des dunes du Sahara aux rivages de la Méditerranée</h1>
+                    
+                    <p class="hero-subtitle">Circuits sur mesure en petits groupes, accompagnés par des experts passionnés, pour un voyage sécuritaire, organisé et mémorable.</p>
+                    
+                    <ul class="benefits-list">
+                        <li class="benefit-item">
+                            <svg class="check-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Itinéraires personnalisés selon vos envies et votre rythme
+                        </li>
+                        <li class="benefit-item">
+                            <svg class="check-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Excellent rapport qualité-prix avec hébergements de charme
+                        </li>
+                        <li class="benefit-item">
+                            <svg class="check-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Accompagnement francophone, du premier appel au retour
+                        </li>
+                        <li class="benefit-item">
+                            <svg class="check-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Service client disponible 7j/7 avant et pendant votre voyage
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="hero-form-wrapper">
+                    <div class="form-card">
+                        <h2 class="form-title">Planifiez votre voyage en Tunisie</h2>
+                        
+                        <form id="leadForm" class="lead-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName">Prénom *</label>
+                                    <input type="text" id="firstName" name="firstName" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName">Nom *</label>
+                                    <input type="text" id="lastName" name="lastName" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Courriel *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Téléphone *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="travelers">Nombre de voyageurs *</label>
+                                    <select id="travelers" name="travelers" required>
+                                        <option value="">Choisir...</option>
+                                        <option value="1">1 personne</option>
+                                        <option value="2">2 personnes</option>
+                                        <option value="3-4">3-4 personnes</option>
+                                        <option value="5-6">5-6 personnes</option>
+                                        <option value="7+">7+ personnes</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="period">Période souhaitée *</label>
+                                    <input type="text" id="period" name="period" placeholder="Ex: Mars 2026" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>Type de voyage *</label>
+                                <div class="checkbox-group">
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="tripType" value="sahara">
+                                        <span>Circuit Sahara & désert</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="tripType" value="beach">
+                                        <span>Plage & farniente</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="tripType" value="culture">
+                                        <span>Culture & découvertes</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="tripType" value="mix">
+                                        <span>Mix Sahara + Mer</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="budget">Budget approximatif par personne *</label>
+                                <select id="budget" name="budget" required>
+                                    <option value="">Choisir...</option>
+                                    <option value="economique">Économique</option>
+                                    <option value="confort">Confort</option>
+                                    <option value="haut-gamme">Haut de gamme</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Parlez-nous un peu de votre projet</label>
+                                <textarea id="message" name="message" rows="4" placeholder="Vos envies, centres d'intérêt, questions..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-large">
+                                Obtenir ma proposition de voyage
+                                <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </button>
+                            
+                            <p class="form-disclaimer">Réponse personnalisée sous 24 à 48 heures. Aucun engagement.</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Section -->
+    <section class="why-section" id="why">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Votre complice pour une aventure tunisienne authentique</h2>
+                <p class="section-subtitle">Vacances Dunes & Mer est une agence spécialisée dans la Tunisie, qui crée des circuits sur mesure en petits groupes, pour faire découvrir le pays de l'intérieur, loin des circuits de masse.</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Experts de la Tunisie</h3>
+                    <p class="feature-description">Une équipe sur place qui connaît chaque région, des médinas historiques aux dunes du Sahara.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="12" y1="18" x2="12" y2="12"></line>
+                            <line x1="9" y1="15" x2="15" y2="15"></line>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Circuits personnalisés</h3>
+                    <p class="feature-description">Un itinéraire construit selon vos intérêts, votre niveau de confort et votre budget.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Hébergements de charme</h3>
+                    <p class="feature-description">Hôtels, maisons d'hôtes et résidences sélectionnés pour leur accueil et leur authenticité.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Accompagnement humain</h3>
+                    <p class="feature-description">Une conseillère dédiée et un service client disponible 7j/7 pour que vous voyagiez en toute sérénité.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiences Section -->
+    <section class="experiences-section" id="experiences">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Des voyages pensés pour vivre la Tunisie autrement</h2>
+            </div>
+            
+            <div class="experiences-grid">
+                <div class="experience-card">
+                    <div class="experience-image">
+                        <img src="sahara_camp_stars_1768099561552.png" alt="Sahara & Nuit dans le désert">
+                        <div class="experience-overlay"></div>
+                    </div>
+                    <div class="experience-content">
+                        <h3 class="experience-title">Sahara & Nuit dans le désert</h3>
+                        <p class="experience-description">Traversez les dunes en 4x4 ou en dromadaire, dormez sous les étoiles dans un campement traditionnel, et découvrez le Sahara en toute sécurité.</p>
+                        <a href="#hero" class="btn btn-secondary btn-small smooth-scroll">
+                            Inclure cette expérience
+                            <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="experience-card">
+                    <div class="experience-image">
+                        <img src="mediterranean_beach_tunisia_1768099574344.png" alt="Méditerranée & Plages">
+                        <div class="experience-overlay"></div>
+                    </div>
+                    <div class="experience-content">
+                        <h3 class="experience-title">Méditerranée & Plages</h3>
+                        <p class="experience-description">Profitez des plages méditerranéennes, des hôtels en bord de mer et d'une ambiance de vacances ensoleillées.</p>
+                        <a href="#hero" class="btn btn-secondary btn-small smooth-scroll">
+                            Ajouter un séjour balnéaire
+                            <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="experience-card">
+                    <div class="experience-image">
+                        <img src="tunisia_medina_culture_1768099587101.png" alt="Culture, gastronomie & rencontres">
+                        <div class="experience-overlay"></div>
+                    </div>
+                    <div class="experience-content">
+                        <h3 class="experience-title">Culture, gastronomie & rencontres</h3>
+                        <p class="experience-description">Explorez les médinas, goûtez aux spécialités locales et vivez des rencontres authentiques avec les habitants.</p>
+                        <a href="#hero" class="btn btn-secondary btn-small smooth-scroll">
+                            Découvrir de l'intérieur
+                            <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-cta">
+                <p class="section-cta-text">Parlez-nous de votre voyage idéal, nous construisons le circuit autour de vous.</p>
+                <a href="#hero" class="btn btn-primary smooth-scroll">
+                    Discuter de mon projet
+                    <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ils sont partis avec nous… et veulent déjà y retourner</h2>
+                <p class="section-subtitle">Les voyageurs du Québec et du Canada reviennent enchantés de leur expérience en Tunisie avec Vacances Dunes & Mer.</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                    </div>
+                    <p class="testimonial-text">"Un voyage magnifique, plein de souvenirs, avec une accompagnatrice attentionnée du début à la fin."</p>
+                    <div class="testimonial-author">
+                        <p class="author-name">Marie-Claude L.</p>
+                        <p class="author-location">Québec, Canada</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                    </div>
+                    <p class="testimonial-text">"La Tunisie est un pays magnifique, et grâce à l'organisation et la présence de Francine, nous nous sommes sentis pris en charge en tout temps."</p>
+                    <div class="testimonial-author">
+                        <p class="author-name">Jean & Sylvie D.</p>
+                        <p class="author-location">Montréal, Canada</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                    </div>
+                    <p class="testimonial-text">"Merci pour ce voyage magique en petit groupe, avec de belles rencontres et des moments inoubliables."</p>
+                    <div class="testimonial-author">
+                        <p class="author-name">Louise P.</p>
+                        <p class="author-location">Ottawa, Canada</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                    </div>
+                    <p class="testimonial-text">"Une de nos plus belles expériences de voyage, on recommande sans hésiter."</p>
+                    <div class="testimonial-author">
+                        <p class="author-name">Robert & Claire M.</p>
+                        <p class="author-location">Sherbrooke, Canada</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-cta">
+                <p class="section-cta-text">Vous pourriez être les prochains à raconter votre histoire de voyage en Tunisie.</p>
+                <a href="#hero" class="btn btn-secondary smooth-scroll">
+                    Commencer à planifier
+                    <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process-section" id="process">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Un accompagnement simple, humain et structuré</h2>
+            </div>
+            
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Parlez-nous de votre projet</h3>
+                        <p class="step-description">Remplissez le formulaire ou réservez un appel avec votre conseillère pour nous expliquer vos envies et vos contraintes.</p>
+                    </div>
+                </div>
+                
+                <div class="process-connector"></div>
+                
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Réception de votre proposition sur mesure</h3>
+                        <p class="step-description">Nous vous envoyons un itinéraire détaillé, adapté à votre budget, avec suggestions d'hébergements et d'activités.</p>
+                    </div>
+                </div>
+                
+                <div class="process-connector"></div>
+                
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Vous partez l'esprit tranquille</h3>
+                        <p class="step-description">Nous gérons la logistique avec nos partenaires sur place, vous n'avez plus qu'à profiter de la Tunisie.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="process-promise">
+                <svg class="promise-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+                <p>Notre équipe reste disponible 7j/7 avant et pendant votre voyage pour répondre à vos questions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consultant Section -->
+    <section class="consultant-section" id="consultant">
+        <div class="container">
+            <div class="consultant-wrapper">
+                <div class="consultant-image">
+                    <img src="francine_travel_consultant_1768099599308.png" alt="Francine, votre conseillère en voyages">
+                    <div class="consultant-badge">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                        <span>Conseillère certifiée</span>
+                    </div>
+                </div>
+                
+                <div class="consultant-content">
+                    <h2 class="section-title">Une conseillère de voyage qui vous accompagne vraiment</h2>
+                    <h3 class="consultant-name">Francine, votre conseillère en voyages pour la Tunisie</h3>
+                    <p class="consultant-bio">Francine accompagne des groupes et des voyageurs individuels en Tunisie, du Québec jusqu'au désert, avec une approche humaine, rassurante et personnalisée.</p>
+                    <p class="consultant-bio">Attentive aux détails, elle s'assure que chaque membre du groupe se sente en sécurité et choyé, avec de petites attentions qui font toute la différence.</p>
+                    
+                    <div class="consultant-contact">
+                        <svg class="contact-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        <p>Possibilité d'appel découverte pour discuter de votre projet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="final-cta-section" id="final-cta">
+        <div class="container">
+            <div class="final-cta-content">
+                <h2 class="final-cta-title">Prêt à vivre la Tunisie autrement ?</h2>
+                <p class="final-cta-subtitle">Dites-nous ce que vous rêvez de vivre : nous construisons un voyage sur mesure entre dunes et mer.</p>
+                
+                <div class="final-cta-buttons">
+                    <a href="#hero" class="btn btn-primary btn-large smooth-scroll">
+                        Obtenir ma proposition de voyage
+                        <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                    <a href="#hero" class="btn btn-secondary btn-large smooth-scroll">
+                        Parler à une conseillère
+                        <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3 class="footer-brand">Vacances Dunes & Mer</h3>
+                    <p class="footer-tagline">Agence spécialisée en Tunisie</p>
+                </div>
+                
+                <div class="footer-contact">
+                    <p>📧 <a href="mailto:info@vacancesdunesetmer.com">info@vacancesdunesetmer.com</a></p>
+                    <p>📞 <a href="tel:+15141234567">+1 (514) 123-4567</a></p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Vacances Dunes & Mer. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
